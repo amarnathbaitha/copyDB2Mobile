@@ -22,7 +22,7 @@ public class AndroidSQLiteTutorialActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         
-        DatabaseHandler db = new DatabaseHandler(this);
+         db = new DatabaseHandler(this);
         
         /**
          * CRUD Operations
